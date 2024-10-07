@@ -1,8 +1,10 @@
+-- Fresa n Swiftie Leaves and Joins server script
+
 local Players = game:GetService("Players")
 
 local function showNotification(message)
     game.StarterGui:SetCore("SendNotification", {
-        Title = "by: swiftie and fresa";
+        Title = "nigga stalker";
         Text = message;
         Duration = 5;
     })
@@ -18,3 +20,43 @@ end)
 Players.PlayerRemoving:Connect(function(player)
     showNotification(player.Name .. " nigga LEAVE the server.")
 end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+fresa and swiftie
