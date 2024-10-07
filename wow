@@ -1,0 +1,20 @@
+local Players = game:GetService("Players")
+
+local function showNotification(message)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "by: swiftie and fresa";
+        Text = message;
+        Duration = 5;
+    })
+end
+
+
+showNotification("Script inyected.")
+
+Players.PlayerAdded:Connect(function(player)
+    showNotification(player.Name .. " nigga JOIN the server.")
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+    showNotification(player.Name .. " nigga LEAVE the server.")
+end)
