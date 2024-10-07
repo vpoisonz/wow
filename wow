@@ -1,5 +1,3 @@
--- Made by fresa and swiftie
-
 local Players = game:GetService("Players")
 
 local function showNotification(message)
